@@ -1,0 +1,41 @@
+/* =============extra small responsive============= */
+@media (min-width:320px) and (max-width:575px) {
+nav ul li:last-child{
+    margin-right: 0px;
+}
+.font-72 {
+	font-size: 20px;
+}
+
+.banner_content h1 {
+	color: #132238;
+    margin-top: -167px;
+	line-height: 0px;
+}
+.custom-btn {
+	display: block;
+	padding: 12px 24px;
+    text-align: center;
+    margin-bottom: 66px;
+}
+.banner_content p {
+	width: auto;
+	font-size: 14px;
+}
+.banner_item {
+	text-align: center;
+	text-transform: capitalize;
+	padding: 0px 28px;
+}
+.banner_info{
+    margin-top: 0px;
+}
+.banner_content {
+	margin-top: 0px;
+    margin-bottom: 50px;
+}
+img, svg {
+	vertical-align: middle;
+	width: 70%;
+}
+}

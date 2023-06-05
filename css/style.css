@@ -1,0 +1,136 @@
+/* ======================common css start================ */
+.font-work{
+    
+font-family: 'Work Sans', sans-serif;
+}
+.font-pop{
+    font-family: 'Poppins', sans-serif;
+}
+.font-l{
+    font-weight: 300;
+}
+.font-r{
+    font-weight: 400;
+}
+.font-m{
+    font-weight: 500;
+}
+.font-sb{
+    font-weight: 600;
+}
+.font-14{
+    font-size: 14px;
+    
+}
+.font-16{
+    font-size: 16px;
+    
+}
+.font-18{
+    font-size: 18px;
+    
+}
+.font-20{
+    font-size: 20px;
+    
+}
+.font-24{
+    font-size: 24px;
+    
+}
+.font-32{
+    font-size: 32px;
+    
+}
+.font-38{
+    font-size: 38px;
+    
+}
+.font-48{
+    font-size: 48px;
+    
+}
+.font-72{
+    font-size: 72px;
+    
+}
+.primary-color{
+    background-color:#A53DFF;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+a{
+    text-decoration: none;
+
+}
+ul,ol{
+    list-style: none;
+    padding: 0;
+}
+.custom-btn {
+    display: inline-block;
+    padding: 12px 24px;
+}
+.custom-btn a{
+    
+    color:white;
+
+}
+/* =========================common css end================ */
+nav ul{
+    column-gap: 24px;
+    text-align: center;
+}
+nav ul li:last-child{
+    margin-right: 24px;
+}
+/* ======================banner css start========== */
+.banner{
+    padding-top: 178px;
+    padding-bottom: 191px;
+}
+.banner_img{
+    box-shadow: 0px 24px 116px  rgba(99, 16, 27, 0.09);
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    text-align: center;
+    /* background-color: #E5E5E5; */
+}
+.banner_content{
+    margin-top:50px;
+}
+.banner_content h1{
+ color:#132238;
+ line-height: 84px;
+}
+.banner_content p{
+    width:600px;
+    color:#556070;
+    line-height: 24px;
+    margin:24px 0px;
+
+}
+.banner_item{
+    background-color: #EDD8FF;
+    text-align: center;
+    text-transform: capitalize; 
+    padding:17px 0px;
+}
+.banner_item h4{
+    line-height: 40px;
+    
+}
+.banner__padding{
+padding-right:0px;
+margin-right: -10px;
+}
+.banner_info
+{ margin-top:142px;
+
+}
