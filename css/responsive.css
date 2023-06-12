@@ -242,8 +242,8 @@ left:-44%;
 }
 .contact_item p {
 	position: relative;
-	left:-65%;
-	width:306px;
+	left:-50%;
+	width:278px;
 	margin-top:23px;
 }
 .contact_info{
@@ -258,8 +258,8 @@ left:-44%;
 }
 .contact_list p {
 	position: relative;
-	left:-65%;
-	width:306px;
+	left:-50%;
+	width:278px;
 	margin-top:54px;
 }
 .contact_form{
