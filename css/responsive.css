@@ -2,6 +2,7 @@
 @media (min-width:320px) and (max-width:575px) {
 nav ul li:last-child{
     margin-right: 0px;
+	
 }
 .font-72 {
 	font-size: 20px;
@@ -14,9 +15,10 @@ nav ul li:last-child{
 }
 .custom-btn {
 	display: block;
-	padding: 12px 24px;
+	padding: 10px 104px;
     text-align: center;
-    margin-bottom: 66px;
+    margin-bottom: 28px;
+	margin-top: 20px;
 }
 .banner_content p {
 	width: auto;
@@ -26,16 +28,266 @@ nav ul li:last-child{
 	text-align: center;
 	text-transform: capitalize;
 	padding: 0px 28px;
+	/* order: 2; */
 }
-.banner_info{
+
+
+.banner_img{
+	
+	order:1
+}
+.banner_content .banner_info{
+
     margin-top: 0px;
+	order: 2;
+
 }
 .banner_content {
 	margin-top: 0px;
     margin-bottom: 50px;
+
 }
 img, svg {
 	vertical-align: middle;
-	width: 70%;
+	width: 85%;
+}
+.about_img {
+	margin-top: -133px;
+}
+.about_content h2 {
+	width: auto;
+	/* line-height: 50px; */
+	margin-bottom: 15px;
+	font-size: 22px;
+}
+
+.about_download_btn {
+	padding: 5px 75px;
+}
+.about_icons {
+	position: relative;
+	bottom: 15px;
+	left: 25%;
+	background-color: #fff;
+	padding: 1px;
+	transform: translate(-50%,-50%);
+	border-radius: 8px;
+	box-shadow: 0px 12px 64px rgba(28, 25, 25, 0.12);
+}
+
+.about_content p {
+	color: #87909D;
+	width: auto;
+font-size: 14px;
+}
+.process__custom_css {
+	align-items: center;
+	justify-content: center;
+	padding-top: 0px;
+}
+
+
+.process_content h2 {
+	width: auto;
+	font-size:34px;
+	text-align: center;
+	margin-top: 18px;
+}
+.process_content p {
+	color: #697484;
+	width: auto;
+	padding-top: 12px;
+}
+.process_details h3 {
+	font-size: 20px;
+	font-family: none;
+	text-align: center;
+}
+	
+.process_details p {
+	
+	width: auto;
+	text-align: center;
+}
+.p_title h2{
+	font-size: 40px;
+	margin-top:-60px;
+}
+.p_title p {
+	width: auto;
+	color: #87909D;
+	/* margin: auto; */
+	padding-top: 10px;
+	padding-bottom: 31px;
+}
+.custom-card h3 {
+	
+	text-align: center;
+}
+.custom-card h4 {
+	font-size: 16px;
+	text-align: center;
+}
+
+.custom-card p {
+
+	text-align: center;
+	/* margin: auto; */
+
+}
+.portfolio_btn {
+	padding: 9px 44px;
+	display: block;
+}
+.more_btn {
+	
+	display: block;
+	padding: 12px 24px;
+	margin-top: 29px;
+	padding-bottom: -3px;
+	
+	left: 0%;
+	
+}
+.more_btn a{
+	margin-left: 75px;
+}
+.s_title h3 {
+	width: auto;
+font-size: 26px;
+
+
+}
+
+.s_title{
+	margin-top:-44px;
+}
+.services_content h4 {
+	margin-top: 39px;
+	padding-left: 28px;
+	font-size: 45px;
+}
+.services_content p {
+	width: auto;
+	padding-top: 8px;
+	padding-bottom: 13px;
+}
+.services-color {
+	margin-left: 0px;
+}
+.services_details h3 {
+
+	font-size: 21px;
+
+	padding-bottom: 0px;
+	padding-top: 42px;
+	padding-left: 50px;
+	margin-top: -100px;
+}
+.services_details p {
+	
+	line-height: 24px;
+	width: auto;
+
+	padding: 48px 32px;
+	margin-top: -24px;
+}
+.c_title h5 {
+	margin-top: -100px;
+	font-size: 40px;
+}
+.c_title p {
+
+width:auto;
+font-size: 16px;
+padding-top: 14px;
+}
+.website_img{
+	
+		text-align: center;
+		padding: 14px;
+		width: 56%;
+		left: 25%;
+		position: relative;
+	
+}
+.title h2{
+	font-size: 40px;
+	margin-top: -100px;
+}
+.title p{
+	width:auto;
+}
+.testimonial_message {
+	text-align: none;
+	width: auto;
+	margin-top: 30px;
+}
+.contact_item h2{
+	margin-top:-75px;
+	width:322px;
+position: relative;
+left:-44%;
+}
+.contact_item p {
+	position: relative;
+	left:-75%;
+	width:306px;
+	margin-top:23px;
+}
+.contact_info{
+	position: relative;
+	left:-75%;
+}
+.contact_icons{
+	width:258px;
+		margin-top: 14px;
+		margin-left: -93px;
+	
+}
+.contact_list p {
+	position: relative;
+	left:-75%;
+	width:306px;
+	margin-top:54px;
+}
+.contact_form{
+	margin-left: -74px;
+	margin-right: -74px;
+
+}
+.contact_form form button {
+	width: auto;
+	
+}
+.bg_l img{
+	width:auto;
+	margin-top:-72px;
+	margin-left:-147px;
+}
+
+.custom_d-flex {
+	/* display: flex; */
+	margin-left: -168px;
+	width: 155px;
+	display:block;
+	flex-wrap: wrap;
+	column-gap: 10px;
+}
+.custom__padding {
+	padding: 155px 155px;
+
+}
+footer{
+	height:600px;
+}
+.copy_right {
+	margin-left: -137px;
+	display: inline-block;
+	text-align: center;
+
+		margin-top: 362px;
+		margin-right: -59px;
+	
 }
 }
