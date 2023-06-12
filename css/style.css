@@ -104,6 +104,7 @@ nav ul li:last-child{
 .banner_img{
     box-shadow: 0px 24px 116px  rgba(99, 16, 27, 0.09);
     border-radius: 25px;
+    margin-top:146px;
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     -ms-border-radius: 25px;
@@ -143,8 +144,9 @@ margin-right: -10px;
 }
 .banner_info
 { margin-top:142px;
-/* order:1; */
+
 }
+
 /* ================banner css end=========== */
 .about__custom_css{
     background-color: #fff;

@@ -33,14 +33,18 @@ nav ul li:last-child{
 
 
 .banner_img{
-	
-	order:1
+	margin-top: -142px;
 }
-.banner_content .banner_info{
+	.banner__css {
+		order: 1;
+		
+	}
+	
 
-    margin-top: 0px;
+
+.banner_info{
+	margin-top: 198px;
 	order: 2;
-
 }
 .banner_content {
 	margin-top: 0px;
@@ -52,7 +56,7 @@ img, svg {
 	width: 85%;
 }
 .about_img {
-	margin-top: -133px;
+	margin-top: -300px;
 }
 .about_content h2 {
 	width: auto;
@@ -74,7 +78,10 @@ img, svg {
 	border-radius: 8px;
 	box-shadow: 0px 12px 64px rgba(28, 25, 25, 0.12);
 }
-
+.about__custom_css {
+	
+	padding-bottom: 79px;
+}
 .about_content p {
 	color: #87909D;
 	width: auto;
@@ -97,6 +104,7 @@ font-size: 14px;
 	color: #697484;
 	width: auto;
 	padding-top: 12px;
+	font-size: 15px;
 }
 .process_details h3 {
 	font-size: 20px;
@@ -110,7 +118,7 @@ font-size: 14px;
 	text-align: center;
 }
 .p_title h2{
-	font-size: 40px;
+	font-size: 31px;
 	margin-top:-60px;
 }
 .p_title p {
@@ -119,6 +127,7 @@ font-size: 14px;
 	/* margin: auto; */
 	padding-top: 10px;
 	padding-bottom: 31px;
+	font-size: 15px;
 }
 .custom-card h3 {
 	
@@ -165,11 +174,12 @@ font-size: 26px;
 .services_content h4 {
 	margin-top: 39px;
 	padding-left: 28px;
-	font-size: 45px;
+	font-size: 40px;
 }
 .services_content p {
 	width: auto;
 	padding-top: 8px;
+	font-size: 15px;
 	padding-bottom: 13px;
 }
 .services-color {
@@ -194,7 +204,7 @@ font-size: 26px;
 }
 .c_title h5 {
 	margin-top: -100px;
-	font-size: 40px;
+	font-size: 31px;
 }
 .c_title p {
 
@@ -212,11 +222,12 @@ padding-top: 14px;
 	
 }
 .title h2{
-	font-size: 40px;
+	font-size: 31px;
 	margin-top: -100px;
 }
 .title p{
 	width:auto;
+	font-size: 15px;
 }
 .testimonial_message {
 	text-align: none;
@@ -254,7 +265,13 @@ left:-44%;
 .contact_form{
 	margin-left: -74px;
 	margin-right: -74px;
+	
 
+}
+
+.contact_box :first-child {
+	width: 40%;
+	margin-right: 11px;
 }
 .contact_form form button {
 	width: auto;
@@ -265,7 +282,10 @@ left:-44%;
 	margin-top:-72px;
 	margin-left:-147px;
 }
-
+.custom__b{
+margin-top: -138px;
+	
+}
 .custom_d-flex {
 	/* display: flex; */
 	margin-left: -168px;
